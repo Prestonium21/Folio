@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img alt="Professional Photo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to My Portfolio" />
   </div>
 </template>
 
@@ -16,3 +16,9 @@ export default {
   }
 };
 </script>
+<style scoped>
+.home {
+	background-color: #234;
+	min-height: 100vh;
+}
+</style>
